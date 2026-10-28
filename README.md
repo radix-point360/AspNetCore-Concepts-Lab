@@ -75,7 +75,7 @@ This repository serves as:
 
 ## Technologies Used
 
-- .NET 10
+- .NET 6+
 - ASP.NET Core MVC
 - ASP.NET Core Web API
 - Entity Framework Core
