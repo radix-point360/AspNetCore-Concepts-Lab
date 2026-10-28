@@ -4,6 +4,16 @@ A collection of small, focused ASP.NET Core projects created to understand and p
 
 The goal of this repository is to learn ASP.NET Core through practical examples rather than theory alone.
 
+## Purpose
+
+This repository serves as:
+
+- Learning reference
+- Interview preparation resource
+- Revision guide
+- Hands-on ASP.NET Core playground
+
+
 ## Topics Covered
 
 ### Fundamentals
@@ -12,20 +22,6 @@ The goal of this repository is to learn ASP.NET Core through practical examples 
 - Configuration
 - Logging
 - Exception Handling
-
-### MVC Concepts
-- Partial Views
-- View Components
-- Tag Helpers
-- Model Binding
-- Validation
-- Custom Validation
-
-### Filters
-- Action Filters
-- Authorization Filters
-- Result Filters
-- Exception Filters
 
 ### Authentication & Authorization
 - Cookie Authentication
@@ -47,6 +43,20 @@ The goal of this repository is to learn ASP.NET Core through practical examples 
 - Rate Limiting
 - Health Checks
 
+### MVC Concepts
+- Partial Views
+- View Components
+- Tag Helpers
+- Model Binding
+- Validation
+- Custom Validation
+
+### Filters
+- Action Filters
+- Authorization Filters
+- Result Filters
+- Exception Filters
+
 ### Background Processing
 - Hosted Services
 - Background Services
@@ -63,22 +73,6 @@ The goal of this repository is to learn ASP.NET Core through practical examples 
 - Repository Pattern
 - Unit of Work
 
----
-
-## Repository Structure
-
-```text
-AspNetCore-Concepts-Lab
-├── Middleware
-├── ActionFilters
-├── JWTAuthentication
-├── OAuthAuthentication
-├── ASPNetCoreIdentity
-├── PartialViews
-├── SignalR
-└── ...
-```
-
 ## Technologies Used
 
 - .NET 10
@@ -87,15 +81,6 @@ AspNetCore-Concepts-Lab
 - Entity Framework Core
 - SQL Server
 - Identity Framework
-
-## Purpose
-
-This repository serves as:
-
-- Learning reference
-- Interview preparation resource
-- Revision guide
-- Hands-on ASP.NET Core playground
 
 ## Author
 
