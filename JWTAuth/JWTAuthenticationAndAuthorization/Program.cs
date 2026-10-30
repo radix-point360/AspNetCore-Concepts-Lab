@@ -19,9 +19,6 @@ builder.Services
     .ConfigureJWTAuthentication(builder.Configuration)
     .ConfigureJWTAuthorization(builder.Configuration);
 
-builder.Services.AddAuthorization();
-
-
 builder.Services.AddScoped<ITokenService, TokenService>();
 
 var app = builder.Build();
@@ -32,6 +29,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

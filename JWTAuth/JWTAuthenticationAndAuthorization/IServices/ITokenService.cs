@@ -7,6 +7,7 @@ namespace JWTAuthenticationAndAuthorization.IServices
     {
         public string GenerateAccessToken(IEnumerable<Claim> claims);
         public RefreshToken GenerateRefreshToken(string username);
+        ClaimsPrincipal? GetClaimsPrincipalFromExpiredToken(string token);
     }
 
 }

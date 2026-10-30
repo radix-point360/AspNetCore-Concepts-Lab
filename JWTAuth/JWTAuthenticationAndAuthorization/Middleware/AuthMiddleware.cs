@@ -1,4 +1,6 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using System.Runtime.CompilerServices;
 using System.Text;
 
@@ -9,9 +11,9 @@ namespace JWTAuthenticationAndAuthorization.Middleware
         public static IServiceCollection ConfigureJWTAuthentication(this IServiceCollection servics, IConfiguration configuration)
         {
 
-            var issuer = configuration["Jwt:Issuer"];
-            var audience = configuration["Jwt:Audience"];
-            var key = configuration["Jwt:Key"];
+            var issuer = configuration["JWTTokenKey:Issuer"];
+            var audience = configuration["JWTTokenKey:Audience"];
+            var key = configuration["JWTTokenKey:Key"];
 
             servics.AddAuthentication(option =>
             {
@@ -36,8 +38,11 @@ namespace JWTAuthenticationAndAuthorization.Middleware
 
         public static IServiceCollection ConfigureJWTAuthorization(this IServiceCollection services, IConfiguration configuration)
         {
-            
-            return services;
+
+            return services.AddAuthorization(options =>
+            {
+                options.FallbackPolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+            });
         }
 
     }

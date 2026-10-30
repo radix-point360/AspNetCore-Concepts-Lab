@@ -167,5 +167,3 @@ C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAut
 C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAuthenticationAndAuthorization\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAuthenticationAndAuthorization\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAuthenticationAndAuthorization\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAuthenticationAndAuthorization\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
-C:\Sabir\Projects\AspNetCore-Concepts-Lab\AspNetCore-Concepts-Lab\JWTAuth\JWTAuthenticationAndAuthorization\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll

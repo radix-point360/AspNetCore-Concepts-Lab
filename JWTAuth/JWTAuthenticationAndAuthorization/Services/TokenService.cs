@@ -12,8 +12,8 @@ namespace JWTAuthenticationAndAuthorization.Services
     {
         public string GenerateAccessToken(IEnumerable<Claim> claims)
         {
-            var jwtSettings = configuration.GetSection("JwtSettings");
-            var secretKey = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);
+            var jwtSettings = configuration.GetSection("JWTTokenKey");
+            var secretKey = Encoding.UTF8.GetBytes(jwtSettings["key"]);
             var issuer = jwtSettings["Issuer"];
             var audience = jwtSettings["Audience"];
             var ExpiresTime = DateTime.UtcNow.AddMinutes(double.Parse(jwtSettings["AccessTokenExpirationMinutes"]));
@@ -52,11 +52,11 @@ namespace JWTAuthenticationAndAuthorization.Services
 
             return refreshToken;
         }
-
+        
         public ClaimsPrincipal? GetClaimsPrincipalFromExpiredToken(string token)
         {
-            var jwtSettings = configuration.GetSection("JwtSettings");
-            var secretKey = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);
+            var jwtSettings = configuration.GetSection("JWTTokenKey");
+            var secretKey = Encoding.UTF8.GetBytes(jwtSettings["key"]);
             var issuer = jwtSettings["Issuer"];
             var audience = jwtSettings["Audience"];
             var tokenValidationParameters = new TokenValidationParameters

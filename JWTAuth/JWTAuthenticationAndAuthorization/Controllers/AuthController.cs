@@ -5,14 +5,22 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using JWTAuthenticationAndAuthorization.DTO;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using JWTAuthenticationAndAuthorization.IServices;
 
 
 namespace JWTAuthenticationAndAuthorization.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(AppDbContext _context, TokenService _tokenService) : ControllerBase
+    public class AuthController(AppDbContext _context, ITokenService _tokenService) : ControllerBase
     {
+        [AllowAnonymous]
+        [HttpGet("login")]
+        public IActionResult Login()
+        {
+            return Ok(new LoginModel { Username = "admin", Password = "password123" });
+        }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
