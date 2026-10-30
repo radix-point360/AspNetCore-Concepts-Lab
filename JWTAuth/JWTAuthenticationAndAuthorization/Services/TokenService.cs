@@ -10,7 +10,7 @@ namespace JWTAuthenticationAndAuthorization.Services
 {
     public class TokenService(IConfiguration configuration) : ITokenService
     {
-        public string GenerateAccessToken(List<Claim> claims)
+        public string GenerateAccessToken(IEnumerable<Claim> claims)
         {
             var jwtSettings = configuration.GetSection("JwtSettings");
             var secretKey = Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]);

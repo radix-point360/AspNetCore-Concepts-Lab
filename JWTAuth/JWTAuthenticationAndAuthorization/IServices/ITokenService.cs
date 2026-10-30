@@ -5,7 +5,7 @@ namespace JWTAuthenticationAndAuthorization.IServices
 {
     public interface ITokenService
     {
-        public string GenerateAccessToken(List<Claim> claims);
+        public string GenerateAccessToken(IEnumerable<Claim> claims);
         public RefreshToken GenerateRefreshToken(string username);
     }
 
