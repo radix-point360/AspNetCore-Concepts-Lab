@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "brDNcqI6zmY=",
+  "success": true,
+  "projectFilePath": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saber\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "C:\\Users\\saber\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
