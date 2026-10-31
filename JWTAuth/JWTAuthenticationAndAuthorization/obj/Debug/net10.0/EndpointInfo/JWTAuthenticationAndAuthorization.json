@@ -1,14 +1,9 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "JWTAuthenticationAndAuthorization | v1",
-    "version": "1.0.0"
+    "title": "JWT API",
+    "version": "v1"
   },
-  "servers": [
-    {
-      "url": "http://localhost:5228"
-    }
-  ],
   "paths": {
     "/api/Auth/login": {
       "get": {
@@ -42,8 +37,7 @@
                 "$ref": "#/components/schemas/LoginModel"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -74,8 +68,7 @@
                 "$ref": "#/components/schemas/RefreshTokenRequestDto"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -106,8 +99,7 @@
                 "type": "string"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -116,7 +108,43 @@
         }
       }
     },
-    "/api/Values": {
+    "/api/Values/GetAnonymousData": {
+      "get": {
+        "tags": [
+          "Values"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Values/GetAuthData": {
+      "get": {
+        "tags": [
+          "Values"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Values/GetRoleData": {
+      "get": {
+        "tags": [
+          "Values"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Values/GetCustomerData": {
       "get": {
         "tags": [
           "Values"
@@ -135,26 +163,45 @@
         "type": "object",
         "properties": {
           "username": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "password": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       },
       "RefreshTokenRequestDto": {
         "type": "object",
         "properties": {
           "accessToken": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "refreshToken": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter JWT Token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
       }
     }
   },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
   "tags": [
     {
       "name": "Auth"

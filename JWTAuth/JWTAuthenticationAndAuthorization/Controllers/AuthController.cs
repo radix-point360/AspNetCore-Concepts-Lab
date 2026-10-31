@@ -22,6 +22,7 @@ namespace JWTAuthenticationAndAuthorization.Controllers
             return Ok(new LoginModel { Username = "admin", Password = "password123" });
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {

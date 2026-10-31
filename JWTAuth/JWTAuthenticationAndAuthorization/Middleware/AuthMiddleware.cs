@@ -27,7 +27,7 @@ namespace JWTAuthenticationAndAuthorization.Middleware
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidIssuer = issuer,
-                    ValidAudience = "audience",
+                    ValidAudience = audience,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key!))
                 };
             });

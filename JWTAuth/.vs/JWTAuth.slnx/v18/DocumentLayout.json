@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\middleware\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|solutionrelative:jwtauthenticationandauthorization\\iservices\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B522BF6-9CCA-E141-797D-AFB279E387AD}|JWTAuthenticationAndAuthorization\\JWTAuthenticationAndAuthorization.csproj|c:\\sabir\\projects\\aspnetcore-concepts-lab\\aspnetcore-concepts-lab\\jwtauth\\jwtauthenticationandauthorization\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,72 +62,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Program.cs",
+              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Program.cs",
+              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Program.cs",
+              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T16:26:28.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T19:56:22.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\AuthController.cs",
               "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T19:10:29.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthMiddleware.cs",
-              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
-              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
-              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
-              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAuwCkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T18:32:45.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\appsettings.json",
               "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\appsettings.json",
               "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\appsettings.json",
               "RelativeToolTip": "JWTAuthenticationAndAuthorization\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-30T18:23:08.969Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Services\\TokenService.cs",
               "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Services\\TokenService.cs",
               "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T18:17:27.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\IServices\\ITokenService.cs",
               "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\IServices\\ITokenService.cs",
               "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\IServices\\ITokenService.cs",
               "RelativeToolTip": "JWTAuthenticationAndAuthorization\\IServices\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T18:16:38.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Properties\\launchSettings.json",
+              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-31T18:24:08.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthMiddleware.cs",
+              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
+              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
+              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
+              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Middleware\\AuthMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T18:32:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Entities\\RefreshToken.cs",
@@ -132,32 +175,6 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAvwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T17:34:09.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Program.cs",
-              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Program.cs",
-              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Program.cs",
-              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T16:26:28.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Sabir\\Projects\\AspNetCore-Concepts-Lab\\AspNetCore-Concepts-Lab\\JWTAuth\\JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "JWTAuthenticationAndAuthorization\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T19:56:22.418Z",
-              "EditorCaption": ""
             }
           ]
         }

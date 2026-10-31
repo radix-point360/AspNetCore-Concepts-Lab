@@ -59,8 +59,38 @@
   },
   {
     "ContainingType": "JWTAuthenticationAndAuthorization.Controllers.ValuesController",
-    "Method": "GetSecureData",
-    "RelativePath": "api/Values",
+    "Method": "GetAnonymousData",
+    "RelativePath": "api/Values/GetAnonymousData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuthenticationAndAuthorization.Controllers.ValuesController",
+    "Method": "GetAuthData",
+    "RelativePath": "api/Values/GetAuthData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuthenticationAndAuthorization.Controllers.ValuesController",
+    "Method": "GetCustomerData",
+    "RelativePath": "api/Values/GetCustomerData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JWTAuthenticationAndAuthorization.Controllers.ValuesController",
+    "Method": "GetRoleData",
+    "RelativePath": "api/Values/GetRoleData",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
